@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity implements MultiChoiceLayout
         timeChoices.setOnClickListener(this);
 
         */
-
     }
 
     @Override
@@ -34,4 +33,5 @@ public class MainActivity extends AppCompatActivity implements MultiChoiceLayout
         int optionClicked = MultiChoiceLayout.getSelection();
         Toast.makeText(this, "Clicked option: " + String.valueOf(optionClicked), Toast.LENGTH_SHORT).show();
     }
+
 }

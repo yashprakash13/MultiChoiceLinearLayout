@@ -100,7 +100,16 @@ public class MultiChoiceLayout extends LinearLayout implements View.OnClickListe
         int backType =typedArray.getInt(R.styleable.MultiChoiceLayout_backType, 1);
         setBackground(color, width, backType);
 
+        int colorSelectedBack = typedArray.getColor(R.styleable.MultiChoiceLayout_selectedOptionBackground, 0);
+        if (colorSelectedBack != 0) setSelectedBackgroundColor(colorSelectedBack);
+
         typedArray.recycle();
+    }
+
+    public MultiChoiceLayout setSelectedBackgroundColor(int colorSelectedBack) {
+        GradientDrawable drawable = (GradientDrawable) getResources().getDrawable(R.drawable.colorback_textview_background);
+        drawable.setColor(colorSelectedBack);
+        return this;
     }
 
     private void setViewVisibilities(boolean ignore2, boolean ignore3, boolean ignore4) {

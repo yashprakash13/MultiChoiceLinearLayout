@@ -25,6 +25,8 @@
             <enum name="solid" value="2"/>
         </attr>
 
+        <attr name="selectedOptionBackground" format="color"/>
+
     </declare-styleable>
 
 </resources>
