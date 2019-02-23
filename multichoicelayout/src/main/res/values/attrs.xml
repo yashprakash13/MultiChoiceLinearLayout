@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MultiChoiceLayout">
+
+        <attr name="opt1" format="string"/>
+        <attr name="opt2" format="string"/>
+        <attr name="opt3" format="string"/>
+        <attr name="opt4" format="string"/>
+
+        <attr name="opt1TColor" format="color"/>
+        <attr name="opt2TColor" format="color"/>
+        <attr name="opt3TColor" format="color"/>
+        <attr name="opt4TColor" format="color"/>
+
+        <attr name="ignoreSecond" format="boolean"/>
+        <attr name="ignoreThird" format="boolean"/>
+        <attr name="ignoreFourth" format="boolean"/>
+
+        <attr name="backgroundColor" format="color"/>
+        <attr name="backStrokeWidth" format="integer"/>
+
+        <attr name="backType">
+            <enum name="stroke" value="1"/>
+            <enum name="solid" value="2"/>
+        </attr>
+
+    </declare-styleable>
+
+</resources>

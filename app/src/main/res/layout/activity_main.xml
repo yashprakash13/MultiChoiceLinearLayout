@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <tech.pcreate.multichoicelayout.MultiChoiceLayout
+        android:id="@+id/justOneChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:gravity="center"
+        app:opt1TColor="@color/colorAccent"
+        app:opt1="Just one choice"
+        app:backgroundColor="@color/colorPrimary"
+        app:backStrokeWidth="3"
+        app:backType="stroke"
+        app:ignoreSecond="true"
+        app:ignoreThird="true"
+        app:ignoreFourth="true">
+
+    </tech.pcreate.multichoicelayout.MultiChoiceLayout>
+
+
+    <tech.pcreate.multichoicelayout.MultiChoiceLayout
+        android:id="@+id/timechoices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="33dp"
+        app:opt1TColor="@color/colorAccent"
+        app:opt1="Yearly"
+        app:opt2TColor="@color/colorAccent"
+        app:opt2="Monthly"
+        app:backgroundColor="@color/colorPrimary"
+        app:backStrokeWidth="3"
+        app:backType="stroke"
+        app:ignoreThird="true"
+        app:ignoreFourth="true">
+
+    </tech.pcreate.multichoicelayout.MultiChoiceLayout>
+
+    <tech.pcreate.multichoicelayout.MultiChoiceLayout
+        android:id="@+id/languageChoices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="33dp"
+        app:opt1TColor="@color/colorAccent"
+        app:opt1="English"
+        app:opt2TColor="@color/colorAccent"
+        app:opt2="French"
+        app:backgroundColor="@color/colorPrimary"
+        app:backStrokeWidth="3"
+        app:backType="stroke"
+        app:opt3="Spanish"
+        app:opt3TColor="@color/colorAccent"
+        app:ignoreFourth="true">
+
+    </tech.pcreate.multichoicelayout.MultiChoiceLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="11dp"
+        android:layout_marginEnd="11dp">
+
+        <tech.pcreate.multichoicelayout.MultiChoiceLayout
+            android:id="@+id/monthchoices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="33dp"
+            android:layout_marginTop="33dp"
+            android:gravity="center"
+            app:backStrokeWidth="3"
+            app:backType="stroke"
+            app:backgroundColor="@color/colorPrimary"
+            app:opt1="January"
+            app:opt1TColor="@color/colorAccent"
+            app:opt2="February"
+            app:opt2TColor="@color/colorAccent"
+            app:opt3="March"
+            app:opt3TColor="@color/colorAccent"
+            app:opt4="April"
+            app:opt4TColor="@color/colorAccent">
+
+        </tech.pcreate.multichoicelayout.MultiChoiceLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>
