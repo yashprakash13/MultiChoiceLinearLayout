@@ -6,7 +6,7 @@ An android library that mimicks the functionality of a Radio Group and provides 
 ### Start Using!
 
 * Just add dependencies in
-  1. Project level gradle:
+  * Project level gradle:
    
   ```gradle
       allprojects {
@@ -20,7 +20,7 @@ An android library that mimicks the functionality of a Radio Group and provides 
           }
     } 
     ```
-  2. And app level gradle: 
+  * And app level gradle: 
       
   ```gradle
   dependencies {
@@ -114,7 +114,7 @@ public class MyActivity implements MultiChoiceLayout.MultiChoiceOnclick {
 ```
 * Then, get the click action like this:
 ```java
-@Override
+    @Override
     public void onMultiChoiceLayoutClick() {
         if(MultiChoiceLayout.getSelection() ==  1){
             // Do some work
@@ -142,7 +142,7 @@ Likewise for Two choices, one choice or all four choices.
 ```java
 
         //Background of the layout can be either solid or stroke :
-        multiChoiceLayout.setBackground(R.color.color_1, 4, MultiChoiceLayout.STROKE);  // Use for solid background : MultiChoiceLayout.SOLID
+        multiChoiceLayout.setBackground(R.color.color_1, 4, MultiChoiceLayout.STROKE);  // Use for solid background : MultiChoiceLayout.SOLID, width parameter will be ignored.
 
         // Selected Option Background color:
         multiChoiceLayout.setSelectedBackgroundColor(R.color.color_1);
