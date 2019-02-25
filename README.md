@@ -1,5 +1,5 @@
 ## MultiChoiceLinearLayout
-An android library that mimicks the functionality of a Radio Group and provides a custom layout for option selections.
+An android library that mimics the functionality of a Radio Group and provides a custom layout for option selections.
 
 ![Library Preview](https://github.com/yashprakash13/MultiChoiceLinearLayout/blob/master/preview_gif.gif "Library Preview")
 
@@ -154,4 +154,6 @@ Likewise for Two choices, one choice or all four choices.
 ```
 
 
-
+#### Buy me a Coffee!
+If you like this library, please show your support by : 
+<a href='https://ko-fi.com/G2G3R125' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
