@@ -1,4 +1,5 @@
 ## MultiChoiceLinearLayout
+[![](https://jitpack.io/v/yashprakash13/MultiChoiceLinearLayout.svg)](https://jitpack.io/#yashprakash13/MultiChoiceLinearLayout)
 An android library that mimics the functionality of a Radio Group and provides a custom layout for option selections.
 
 ![Library Preview](https://github.com/yashprakash13/MultiChoiceLinearLayout/blob/master/preview_gif.gif "Library Preview")
