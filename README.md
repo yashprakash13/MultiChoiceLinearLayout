@@ -4,7 +4,7 @@ An android library that mimics the functionality of a Radio Group and provides a
 
 ![Library Preview](https://github.com/yashprakash13/MultiChoiceLinearLayout/blob/master/preview_gif.gif "Library Preview")
 
-### Start Using!
+### Start using in your project!
 
 * Just add dependencies in
   * Project level gradle:
